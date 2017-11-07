@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        $("#btnEntrenamiento").click(irEntrenamiento);
     },
     // Bind Event Listeners
     //
@@ -46,4 +47,8 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+    function irEntrenamiento(){
+      
+    }
+
 };
